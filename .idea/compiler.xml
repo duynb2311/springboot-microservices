@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service2" />
+        <module name="server" />
+        <module name="service1" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-service" target="11" />
+      <module name="cau-thu-service" target="11" />
+      <module name="crud (2)" target="11" />
+      <module name="crud (3)" target="11" />
+      <module name="crud (4)" target="11" />
+      <module name="eureka-server" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-service" options="-parameters" />
+      <module name="cau-thu-service" options="-parameters" />
+      <module name="crud (2)" options="-parameters" />
+      <module name="crud (3)" options="-parameters" />
+      <module name="crud (4)" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="server" options="-parameters" />
+      <module name="service1" options="-parameters" />
+      <module name="service2" options="-parameters" />
+    </option>
+  </component>
+</project>
